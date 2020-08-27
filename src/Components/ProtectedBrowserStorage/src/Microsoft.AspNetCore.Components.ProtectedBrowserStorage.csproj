@@ -4,13 +4,12 @@
     <TargetFramework>$(DefaultNetCoreTargetFramework)</TargetFramework>
     <Description>A collection of Blazor components for the web.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <RootNamespace>Microsoft.AspNetCore.Components</RootNamespace>
     <Nullable>enable</Nullable>
-    <IsShipping>false</IsShipping>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Microsoft.AspNetCore.Components" />
+    <Reference Include="Microsoft.AspNetCore.DataProtection" />
     <Reference Include="Microsoft.JSInterop" />
   </ItemGroup>
 
